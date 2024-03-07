@@ -2,6 +2,11 @@ name: "prueba"
 description: "Place holder description"
 author: "Kris Bonefont"
 
+inputs:
+  nombre:
+    description: "a quien se le dira"
+    required: true
+    default: "okok"
 runs:
   using: "node20"
   main: "dist/index.js"
