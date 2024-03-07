@@ -1,0 +1,7 @@
+name: "test"
+description: "Place holder description"
+author: "Kris Bonefont"
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
