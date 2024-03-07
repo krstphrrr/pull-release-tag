@@ -1,0 +1,12 @@
+name: "prueba"
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  prueba:
+    runs-on: ubuntu-lsyrdy
+    steps:
+      - uses: actions/checkout@v4.1.1
+      - uses: ./
+        
